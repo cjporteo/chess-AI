@@ -35,8 +35,9 @@ Moves are made with the ``move`` command. If the current move is being made by a
 
 #### Example:
 For a computer player: ``move``
+<br>
 For a human player: ``move e2 e4``
-
+<br>
 To surrender, use the ``resign`` command. A new game can then be started.
 
 ## Notes
