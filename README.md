@@ -59,5 +59,5 @@ To surrender, use the ``resign`` command. A new game can then be started.
 	 - random crashes on piece capture
 	 - highly questionable moves made by ``computer4``
 	 - segmentation faults
-   - compilation new executable using ``make run`` results in games that crash on the first move. This likely stems from imcompatibility with current updated versions of the OS; ``./chess`` still works, though.
+   - compiling new executable using ``make run`` results in games that crash on the first move. This likely stems from incompatibility with current updated versions of the OS; ``./chess`` still works, though
 - ``game computer4 compter4`` is probably the highlight of this engine. Ever wondered what a chess game would look like between Garry Kasparov and Bobby Fischer if both were inebriated to the brink of unconsciousness? ``computer4`` vs. ``computer4`` will likely put this curiosity to rest.
