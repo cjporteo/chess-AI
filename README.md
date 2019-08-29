@@ -4,21 +4,7 @@ This was created as a final project for CS246 at University of Waterloo.
 
 The task was to create a chess engine from scratch that supports both human and AI players. AI was implemented using minimax with alpha-beta pruning. Graphics are handled with *X11*.
 
-Values for the minimax tree nodes are $v = \sum_{W} S_{piece} - \sum_{B} S_{piece}$  , where
-$$S_{piece} = \left\{
-        \begin{array}{ll}
-            1 & \quad pawn \\
-            3 & \quad bishop \\
-	    3 & \quad knight \\
-	    9 & \quad queen \\
-        \end{array}
-        \right.
-$$
-
-White is the maximizing player; black is the minimizing player.
-
-In the recursive tree evaluation, we track values for $\alpha =$ minimum guaranteed score for white, $\beta =$ maximum guaranteed score for black. If at any point $\alpha \geq \beta$, we halt the search for any more children of the node, as they need not be considered. This *prunes* the tree, providing runtime optimization.
-
+![AB Pruning](https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/69336075_487777005102422_277070960195010560_n.png?_nc_cat=103&_nc_oc=AQnNEzIzuslfjTOVNKuk44F6mdqMWATLfQO7c65XMIDe073hFaIDkzefY_ECGhio1xI&_nc_ht=scontent-yyz1-1.xx&oh=82ca36d40f740d8ba5bbe7556b50d390&oe=5E015999)
 Once a checkmate pattern is identified, the search is terminated and the move sequence is executed.
 
 All chess rules are incorporated, including castling, en passant, and pawn promotion. The engine is controlled from the command line.
@@ -26,7 +12,7 @@ All chess rules are incorporated, including castling, en passant, and pawn promo
 ## Installation
 
 ``git clone https://github.com/cjporteo/chess-AI``
-``cd ChessAI
+``cd ChessAI``
 ``./chess``
 
 ## Functionality
@@ -59,5 +45,5 @@ To surrender, use the ``resign`` command. A new game can then be started.
 	 - random crashes on piece capture
 	 - highly questionable moves made by ``computer4``
 	 - segmentation faults
-   - compiling new executable using ``make run`` results in games that crash on the first move. This likely stems from incompatibility with current updated versions of the OS; ``./chess`` still works, though
+	 - compiling new executable using ``make run`` results in games that crash on the first move. This likely stems from incompatibility with current updated versions of the OS; ``./chess`` still works, though
 - ``game computer4 compter4`` is probably the highlight of this engine. Ever wondered what a chess game would look like between Garry Kasparov and Bobby Fischer if both were inebriated to the brink of unconsciousness? ``computer4`` vs. ``computer4`` will likely put this curiosity to rest.
