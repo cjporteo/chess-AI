@@ -22,6 +22,7 @@ All chess rules are incorporated, including castling, en passant, and pawn promo
 ## Functionality
 
 Game is instantiated by ``game``
+<br>
 Enter white player mode, one of: ``human``, ``computer1``, ``computer2``, ``computer3``, ``computer4``
 Enter black player mode, one of: ``human``, ``computer1``, ``computer2``, ``computer3``, ``computer4``
 
