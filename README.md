@@ -24,6 +24,7 @@ All chess rules are incorporated, including castling, en passant, and pawn promo
 Game is instantiated by ``game``
 <br>
 Enter white player mode, one of: ``human``, ``computer1``, ``computer2``, ``computer3``, ``computer4``
+<br>
 Enter black player mode, one of: ``human``, ``computer1``, ``computer2``, ``computer3``, ``computer4``
 
 Computer number corresponds to the level of sophistication of the AI. ``computer1`` makes moves at random. ``computer4`` is still quite crude, broadly speaking, but still makes decisions with some degree of cleverness.
