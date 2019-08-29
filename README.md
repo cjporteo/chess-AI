@@ -14,7 +14,9 @@ All chess rules are incorporated, including castling, en passant, and pawn promo
 ## Installation
 
 ``git clone https://github.com/cjporteo/chess-AI``
+<br>
 ``cd ChessAI``
+<br>
 ``./chess``
 
 ## Functionality
