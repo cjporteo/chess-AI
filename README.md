@@ -47,7 +47,7 @@ To surrender, use the ``resign`` command. A new game can then be started.
  
 - The decision tree is built in a naive iterative manner, meaning the left-to-right ordering of nodes in the tree isn't ordered in any specific way. Constructing the tree looking for *capturing* moves first, for example, would facilitate faster pruning and significant reduction in search time.
 
-- Well known and researched openings could be hard-coded into the engine. Opening theory for chess has been rigorously studied and ideal opens have been well established for quite some time. AI only really starts to shine in the mid-game, even if state of the art neural networks.
+- Well known and researched openings could be hard-coded into the engine. Opening theory for chess has been rigorously studied and ideal opens have been well established for quite some time. AI only really starts to shine in the mid-game, even in state of the art neural networks.
 
 - This engine is not bug-free. Odd things happen sometimes, such as:
 	 - random crashes on piece capture
