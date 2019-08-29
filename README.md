@@ -6,6 +6,7 @@ The task was to create a chess engine from scratch that supports both human and 
 
 ![AB Pruning](https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/69336075_487777005102422_277070960195010560_n.png?_nc_cat=103&_nc_oc=AQnNEzIzuslfjTOVNKuk44F6mdqMWATLfQO7c65XMIDe073hFaIDkzefY_ECGhio1xI&_nc_ht=scontent-yyz1-1.xx&oh=82ca36d40f740d8ba5bbe7556b50d390&oe=5E015999)
 <br>
+<br>
 Once a checkmate pattern is identified, the search is terminated and the move sequence is executed.
 
 All chess rules are incorporated, including castling, en passant, and pawn promotion. The engine is controlled from the command line.
