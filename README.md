@@ -43,7 +43,7 @@ To surrender, use the ``resign`` command. A new game can then be started.
 
 ## Notes
 
- - There is lots of room for improvement with this software, concerning both the graphics and the AI; a trained neural network could be implemented in the future to vastly improve decision making ability.
+ - There is lots of room for improvement with this software, concerning both the graphics and the AI; a neural network using reinforcement learning could be implemented in the future to vastly improve decision making ability.
  
 - The decision tree is built in a naive iterative manner, meaning the left-to-right ordering of nodes in the tree isn't structured in any specific way. Constructing the tree looking for *capturing* moves first, for example, would facilitate faster pruning and significant reduction in search time.
 
